@@ -7,6 +7,19 @@
 //
 
 import Foundation
+import ImageCaptureCore
 
 print("Hello, World!")
 
+let browser = ICDeviceBrowser.init()
+let myDeviceBrowserDelegate = myDeviceBrowserDelegateClass.init()
+browser.delegate = myDeviceBrowserDelegate
+let deviceSearchMask = ICDeviceTypeMask.camera
+let deviceSearchLocation = ICDeviceLocationTypeMask.local
+
+browser.browsedDeviceTypeMask = ICDeviceTypeMask(rawValue: deviceSearchMask.rawValue | deviceSearchLocation.rawValue) ?? ((ICDeviceTypeMask(rawValue: 0) ?? nil)!)
+
+browser.start()
+print(browser.isBrowsing)
+print(browser.devices!)
+browser.stop()
