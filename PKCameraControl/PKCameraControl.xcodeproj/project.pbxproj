@@ -12,6 +12,7 @@
 		4B2B444C226FBD3F0045206B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B444B226FBD3F0045206B /* Assets.xcassets */; };
 		4B2B444F226FBD3F0045206B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B444D226FBD3F0045206B /* Main.storyboard */; };
 		4B2B445B226FBD3F0045206B /* PKCameraControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B445A226FBD3F0045206B /* PKCameraControlTests.swift */; };
+		4B4B2DA5226FC28400B7411B /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B2DA4226FC28400B7411B /* CameraManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		4B2B4456226FBD3F0045206B /* PKCameraControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKCameraControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2B445A226FBD3F0045206B /* PKCameraControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKCameraControlTests.swift; sourceTree = "<group>"; };
 		4B2B445C226FBD3F0045206B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4B2DA4226FC28400B7411B /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				4B2B4447226FBD3E0045206B /* AppDelegate.swift */,
 				4B2B4449226FBD3E0045206B /* ViewController.swift */,
+				4B4B2DA4226FC28400B7411B /* CameraManager.swift */,
 				4B2B444B226FBD3F0045206B /* Assets.xcassets */,
 				4B2B444D226FBD3F0045206B /* Main.storyboard */,
 				4B2B4450226FBD3F0045206B /* Info.plist */,
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B2B444A226FBD3E0045206B /* ViewController.swift in Sources */,
+				4B4B2DA5226FC28400B7411B /* CameraManager.swift in Sources */,
 				4B2B4448226FBD3E0045206B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
